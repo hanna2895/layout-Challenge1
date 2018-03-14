@@ -27,7 +27,14 @@ header, footer {
 .group1 {
 	
 	width: 100%;
-	background: none;
+	background: white;
+	border: none;
+
+}
+
+.group2 {
+	background-color: white;
+	border: none;
 }
 
 .big1, .big2 {
