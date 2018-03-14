@@ -31,3 +31,9 @@ for (let i = 1; i <= 5; i++) {
 }
 
 // I'm not sure if this is correct. It returns the pattern with a sixth line of "xxxxxx" in the console. I've seen this problem before where it was adding all the x's on one line of code with breaks in it, but I'm not sure if that's what this question is asking because I think that one requires functions. 
+
+// Loop #4
+
+for (let i = 99; i >= 0; i--) {
+	console.log([i] + " bottles of beer on the wall, " + [i] + " bottles of beer. Take one down, pass it around. " + [i - 1] + " bottles of beer on the wall.")
+}
