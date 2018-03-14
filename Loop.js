@@ -22,3 +22,12 @@ for (let i = 1; i <= 100; i++) {
 	}
 }
 
+// Loop #3
+let triangle = 'x';
+
+for (let i = 1; i <= 5; i++) {
+	console.log(triangle);
+	triangle += 'x';
+}
+
+// I'm not sure if this is correct. It returns the pattern with a sixth line of "xxxxxx" in the console. I've seen this problem before where it was adding all the x's on one line of code with breaks in it, but I'm not sure if that's what this question is asking because I think that one requires functions. 
